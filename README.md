@@ -11,6 +11,9 @@ What a learn in this project:
   - `async waitForElementToBeRemoved` for element that was there and then disappeared
 - `test not wrapped in act(...)` warning
   - determine how component is getting updated async and account for in tests
-- Mocking services
+- Mock Service Worker
   - configure mock service library `msw` into the project
-  - using await + findBy to fetch component that depend to server
+    - create a `handler`
+    - create a `server`
+    - update `setupTests` to listen for requests
+  - use await/async + findAllByRole instead getAllByRole to get components that fetch server data (Asynchronous DOM updates)
