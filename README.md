@@ -17,4 +17,6 @@ What a learn in this project:
     - create a `server`
     - update `setupTests` to listen for requests
   - use await/async + `findAllByRole` instead `getAllByRole` to get components that fetch server data (Asynchronous DOM updates)
-  - use `awaitFor` for await messages
+  - Override Mock Service Worker response for individual tests
+  - Isolate test within file with `test.only` or `test.skip`
+  - use `awaitFor` for await messages in tests where `await findBy*` isn't enough
