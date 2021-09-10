@@ -16,4 +16,5 @@ What a learn in this project:
     - create a `handler`
     - create a `server`
     - update `setupTests` to listen for requests
-  - use await/async + findAllByRole instead getAllByRole to get components that fetch server data (Asynchronous DOM updates)
+  - use await/async + `findAllByRole` instead `getAllByRole` to get components that fetch server data (Asynchronous DOM updates)
+  - use `awaitFor` for await messages
